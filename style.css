@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-top-document {
+  width: 100%;
+  background-color: #d9d9d9;
+  padding: 13px;
+}
+
+.add {
+  font-size: 33px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.list-item {
+  display: flex;
+  /* align-items:; */
+  gap: 10px;
+}
+
+.graf {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.grab {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vid-nav {
+  width: 100px;
+  height: 150px;
+}
+
+.btn-nav {
+  height: 37px;
+  width: 256px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 2px solid #dc051f;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.nav-h2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: -0.015em;
+}
+
+.nav-h1 {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -0.015em;
+}
+
+.nav-h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #dc051f;
+}
+
+.btn-two-nav {
+  margin-top: 34px;
+  background-color: #dc051f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: #ffffff;
+  height: 58px;
+  width: 413px;
+  border: none;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: -0.015em;
+  text-align: center;
+}
+
+.need-widht {
+  border-radius: 50%;
+}
+
+.animals {
+  position: absolute;
+  left: 988px;
+  width: 458px;
+  top: 456px;
+  border-radius: 0px;
+}
+
+@media (max-width: 576px) {
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list-item {
+    width: 100%;
+    /* align-items: center; */
+  }
+  .add {
+    font-size: 22px;
+  }
+
+  .p-cha-nav {
+    font-size: 12px;
+  }
+  .nav-h1 {
+    font-size: 25px;
+    line-height: 22px;
+  }
+  .btn-two-nav {
+    margin-top: 34px;
+    background-color: #dc051f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #ffffff;
+    height: 58px;
+    width: 310px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    text-align: center;
+  }
+}
+
+/* Aside qismi  */
+
+aside {
+  margin-top: 70px;
+  width: 100%;
+  background-color: #ffe9b7;
+  /* height: 500px; */
+}
+
+.aside-h2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+.aside-h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+.two-animals {
+  position: relative;
+  top: -35px;
+  width: 35%;
+  z-index: 0;
+}
+
+.aside-a {
+  color: black;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.circle-img {
+  margin-top: 15px;
+  /* margin-left: 18px; */
+}
+
+.aside-twoh {
+  margin-top: 25px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  /* line-height: 40px; */
+  /* letter-spacing: -0.015em; */
+  text-align: center;
+}
+
+.aside-ptw {
+  text-align: center;
+}
+
+.card-aside{
+    margin-top: 25px;
+    margin-left: 65px;
+}
+
+.dadada{
+    margin-left: 15px;
+}
+
+
+@media (max-width:576px) {
+    .aside-h2{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .aside-h3{
+        margin-top: 5px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .card-aside{
+        margin: 10px 0px;
+        width: 45%;
+    }
+    .kerekpi{
+        width: 90%;
+    }
+    .two-animals {
+        position: relative;
+        top: 0px;
+        width: 100%;
+        z-index: 0;
+      }
+
+      .a-img-aside{
+        width: 90%;
+      }
+    
+}
+
+.a-img-aside{
+    margin: 10px;
+}
+
+
+.article-p{
+   margin: 10px;
+}
+
+
